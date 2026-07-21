@@ -1,0 +1,11 @@
+# Never commit real API keys or secrets
+.env
+*.env
+blood_test.jpg
+blood_report_analysis.txt
+
+# Trained chatbot model artifacts (large/binary, regenerate locally instead)
+chatbot/chatbot_model.h5
+chatbot/words.pkl
+chatbot/classes.pkl
+day07-llm-gemini-vision-chatbot

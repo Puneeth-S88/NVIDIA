@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care", "Exit", "Quit"],
+      "responses": ["Goodbye! Have a great day!", "See you next time!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!"]
+    },
+    {
+      "tag": "about_gpu",
+      "patterns": [
+        "What is a GPU",
+        "Explain GPU",
+        "Why do we need a GPU for AI",
+        "What is the H200"
+      ],
+      "responses": [
+        "A GPU (Graphics Processing Unit) runs thousands of simple calculations in parallel, which is exactly what neural network training needs. The H200 is NVIDIA's data-center GPU with 141GB of memory, built for large AI models."
+      ]
+    },
+    {
+      "tag": "about_transformer",
+      "patterns": [
+        "What is a transformer",
+        "Explain attention mechanism",
+        "How do LLMs work"
+      ],
+      "responses": [
+        "A Transformer processes an entire sequence at once using self-attention, letting every word relate to every other word directly. This is the architecture behind BERT, GPT, and most modern LLMs."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["I'm not sure I understand. Could you rephrase that?"]
+    }
+  ]
+}
